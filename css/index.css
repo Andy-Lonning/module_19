@@ -1,0 +1,275 @@
+body {
+    background-color: #252C2F;
+}
+nav {
+    display: inline-block;
+    vertical-align: top;
+    height: 120px;
+    width: 100%;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+ul {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 100px;
+}
+li {
+    display: inline-block;
+    top: 50%;
+    padding: 20px;
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+    color: azure;
+    display: inline-block;
+    padding-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+h2 {
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.headerTitle {
+    color: azure;
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 6px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.profilephoto {
+    display: inline-block;
+    width: 20%;
+    height: auto;
+}
+.headerbg {
+    display: inline-block;
+    width: 60%;
+    background-color: rgba(34, 84, 117, 0.7);
+    position: absolute;
+    left: 12%;
+    top: -6%;
+    margin: auto;
+}
+.thinrectangle {
+    height: 18px;
+    background-color: #CADC73;
+    display: inline-block;
+    width: 28%;
+    position: absolute;
+    right: 0%;
+}
+section {
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+}
+.verticalrectangle {
+    width: 24px;
+    height: 100vh;
+    display: inline-block;
+    background-color: #CADC73;
+    position: absolute;
+    top: -4px;
+    bottom: 0;
+    left: 1%;
+}
+.bio {
+    position: absolute;
+    margin: auto;
+    padding: 20%;
+    left: 10%;
+    top: -40%;
+}
+
+p {
+    font-size: 20px;
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+button {
+    color: azure;
+    background-color: #316F8E;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.project1 {
+    display: inline-block;
+    background-color: #316F8E;
+    width: 70%;
+    height: 400px;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.project {
+    position: absolute;
+    right: 45%;
+}
+.circle {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    top: 160px;
+    left: -40px;
+    background-color: #CADC73;
+}
+.mySkills {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.skillsHeader {
+    margin-top: 100px;
+    margin-right: 3.5%;
+    font-size: 34px;
+}
+.flexContainer {
+    display: flex;
+    justify-content: center;
+}
+.skill {
+    background-color: #316F8E;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    margin: 2%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    background-color: #CADC73;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+.skill p {
+    margin: 8px;
+}
+.myWork {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.workGrid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 70%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "circleA textA"
+        "circleB textB"
+        "circleC textC";
+}
+.circleGrid {
+    background-color: #CADC73;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-left: 95%;
+}
+.projectText {
+    background-color: #316F8E;
+    height: 420px;
+    margin: 20px;
+    text-align: center;
+}
+.projectText button {
+    background-color: #252C2F;
+    margin-top: 200px;
+}
+.circleA {
+    grid-area: circleA;
+}
+.textA {
+    grid-area: textA;
+}
+.circleB {
+    grid-area: circleB;
+}
+.textB {
+    grid-area: textB;
+}
+.circleC {
+    grid-area: circleC;
+}
+.textC {
+    grid-area: textC;
+}
+
+footer {
+    display: inline-block;
+    vertical-align: top;
+    height: 120px;
+    width: 100%;
+    margin-top: auto;
+    position: relative;
+}
+.footernav {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        visibility: hidden;
+    }
+    .headerbg h1 {
+        font-size: 18px;
+    }
+    .headerbg h2 {
+        font-size: 16px;
+    }
+    .project1 {
+        display: inline-block;
+        background-color: #316F8E;
+        width: 70%;
+        height: 400px;
+        position: relative;
+        margin-left: 30%;
+        margin-top: 60%;
+    }
+    .flexContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
